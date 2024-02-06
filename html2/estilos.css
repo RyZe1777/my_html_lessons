@@ -12,11 +12,20 @@
     margin-bottom: 30px;
 }
 
+#main h2 {  
 
+}
 
+#main ul {
+    background: white;
+    color: brown;
+    border: 2px solid blue;
+}
 
-
-#main h2 {
-    margin-top: 150px;
-
+#main ul li{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom:      ;
 }
