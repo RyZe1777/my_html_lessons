@@ -1,0 +1,22 @@
+#main {
+    width: 900px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    /* margin = margem, 0 auto = ao centro*/
+    background: black;
+    color: pink; 
+}
+#main .row{
+    padding: 10px;
+    border-bottom: 3px solid red;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+#main h2 {
+    margin-top: 150px;
+
+}
