@@ -17,15 +17,15 @@
 }
 
 #main ul {
-    background: white;
     color: brown;
     border: 2px solid blue;
 }
 
 #main ul li{
+    background: white;
     font-size: 14px;
     font-weight: bold;
     padding-left: 10px;
     padding-top: 5px;
-    margin-bottom:      ;
+    margin-bottom: 10px;
 }
