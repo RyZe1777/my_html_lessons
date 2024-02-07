@@ -1,4 +1,4 @@
-#main {
+        #main {
     width: 900px;
     padding: 20px 30px;
     margin: 0 auto;
@@ -7,14 +7,14 @@
     color: pink; 
 }
 #main .row{
-    padding: 10px;
-    border-bottom: 3px solid red;
-    margin-bottom: 30px;
+    width: 100%;
 }
 
-#main h2 {  
-
+#main .col50{
+    display: inline-block;
+    width: 49%;
 }
+
 
 #main ul {
     color: brown;
