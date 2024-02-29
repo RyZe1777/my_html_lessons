@@ -1,0 +1,17 @@
+#main{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.col2{
+    display: inline-block;
+    width: 45%;
+    padding: 1% 2%;
+}
+
+.col1{
+    display: inline-block;
+    width: 100%;
+}

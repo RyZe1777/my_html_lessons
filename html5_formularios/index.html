@@ -1,0 +1,53 @@
+
+<head>
+    <title>Formularios</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="main">
+        <h1> Formulário De Registo</h1>
+        <form action="registo.php" method="GET" name="Formulario">
+            <div class="row">
+                <div class="col2">
+                    <label>Nome:</label>
+                    <input type="label" name="nome" placeholder="Insira o seu Nome"/>
+                </div>
+                <div class="col2">
+                    <label>Username:</label>
+                    <input type="label" name="username" placeholder="Insira o seu Username"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <label>E-mail:</label>
+                    <input type="label" name="E-mail" placeholder="Insira o seu E-mail"/>
+                </div>
+                <div class="col2">
+                    <label>Password:</label>
+                    <input type="label" name="Password" placeholder="Insira a sua Password "/>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col1">
+                    <label>Morada Completa:</label>
+                    <textarea name="Morada" id= "Insira a sua Morada" ></textarea>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="col2">
+                    <label> Data de Nascimento</label>
+                    <input type="date" name="Data de Nascimento" placeholder="Insira a sua Data de Nascimento"/>
+                </div>
+            </div>
+                <div class="col2">
+                    <label>Sexo</label>
+                    <select name="Sexo">
+                        <option>Escolha</option>
+                        <option value="Masculino"> Masculino </option>
+                        <option value="Feminino"> Feminino </option>
+                    </select>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
