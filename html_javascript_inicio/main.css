@@ -46,3 +46,9 @@
     font-size: 18px; /* tamanho da letra */
     font-weight: bold; /* negrito */
 }
+
+#loader .close{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
