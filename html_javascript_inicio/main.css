@@ -1,0 +1,48 @@
+#main{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.col2{
+    display: inline-block;
+    width: 45%;
+    padding: 1% 2%;
+}
+
+.col1{
+    display: inline-block;
+    width: 100%;
+}
+
+.border-form{
+    border: 1px solid green;
+    background: green;
+    color: white;
+}
+.box input{
+    border: 2px solid black;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto  ;
+    display: inline-block;
+}
+
+
+#loader {
+    position: fixed; /*relativo ao browser*/
+    top: 50%; /* Do topo 50% para centralizar no site */
+    left: 50%; /* Da esquerda 50% para centralizar no site */
+    margin-left: -175px; /* Metade da largura para centralizar */
+    margin-top: -100px; /* Metade da altura para centralizar */
+    line-height: 200px; /* Altura da linha */
+    width: 350px; /* largura */
+    height: 200px; /* altura */
+    text-align: center; /* alinhamento horizontal */
+    vertical-align: middle; /* alinhamneto vertical */
+    background: lightgrey; /*fundo */
+    border: 2px solid black; /* border */
+    font-size: 18px; /* tamanho da letra */
+    font-weight: bold; /* negrito */
+}
