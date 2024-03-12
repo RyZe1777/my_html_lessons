@@ -1,0 +1,159 @@
+ESTRUTURA DO CODIGO
+
+<html>  -> inicializar o html
+<head> -> meta dados do site
+<body> -> estrutura do site
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+PARA FAZERMOS UM COMENTARIO FAZEMOS
+
+<!--  comentario --> 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PARA HEADING FAZEMOS
+
+<h1>mensagem</h1>
+
+h significa heading, heading1 , heading2,heading3
+
+SÓ PODEMOS TER UM H1,, MAS PODEMOS TER VARIOS H2 E H3
+-------------------------------------------------------------------------------------------------------------------------------------------------
+PARA PARAGRAFOS FAZEMOS:
+
+<p> mensagem </p>
+------------------------------------------------------------------------------------------------------------------------------------------------
+PARA IMAGEMS FAZEMOS
+
+<img src= nome da imagem.png ou .jpeg alt= nome da imagem />
+
+
+sendo 
+
+img: image
+scr: source
+alt: alternat
+-----------------------------------------------------------------------------------------------------------------------------------------------
+PARA LINKS FAZEMOS
+
+
+<a href="link"  title="nome do link" target="_blank" >nome</a>
+
+
+sendo 
+
+a: ancora
+href: pagina a abrir 
+title: nome da pagina a abrir
+target _blank : novo separador 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+DENTRO DO HEAD ENTRA
+
+chamada de css e chamda e js
+e meta tags para facebook, google , etc 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+GRELHAS RESPONSIVE                                                          responsive pk adapta-se ao dispositivo a ser utilizado
+
+criar a nossa grelha personalizada
+
+                              OU
+
+procurar frameworks existentes:                                  framewok pk já tem varios cenários previstos/planeados
+
+                        ||
+                       \ /
+
+Bootstrap 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+ontainer -> Elemento que envolve e contém outros elementos HTML. Os containers são usados para estruturar e organizar o conteúdo em uma página da web. 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-Margin -> sempre para fora (exterior)
+
+-Padding -> sempre para dentro (interior) 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+TIPOS DE BLOCO
+
+-DIV
+-SPAN 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+DIV OU QUALQUER ELEMENTO
+
+-ID (único)   -> utilizado para chamar elementos
+
+-CLASS (pode existir vários) -> utilizado para estilar (CSS) elementos 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PARA INSERIR UM FICHEIRO CSS FAZEMOS:
+
+
+<link href="nome do ficheiro" rel="stylesheet" />
+
+rel = é a relaçao entre o ficheiro CSS e o ficheiro HTLM
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+COMENTÁRIO EM CSS:
+
+/*
+comentario
+*/
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ISTAS
+
+UL -> unordered list (sem ordem)
+
+<ul>
+        <li> coisas </li>
+</ul>
+
+OL -> ordered list  (com ordem)
+
+<ol>
+        <li> coisas </li>
+</ol> 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+DISPLAY:  Forma como um elemento se comporta no layout
+
+    INLINE (na mm linha) -> so ocupa o espaço necessario na linha, permite varios  lado a lado (width auto) (ocupa oq precisa)
+    INLINE-BLOCK -> suporta varios elementos na mm linha permitindo atribuir width a cada um deles (ex: layout de varias colunas na mm linha)
+    BLOCK -> nao aceita mais nenhum elemento ao seu lado (width 100%) (ocupa td)
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        CHAMAR CSS
+Tens as 3, . classes, # id e depois os elementos que são mesmo do html tipo "body" e outros não se usa nada é só um nome mesmo
+
+Ids
+id="main"
+. É para classes
+class="earth"
+e "a" n é nada isso supostamente é para o link
+------------------------------------------------------------------------------------------------------------------------------------------------------
+html  - <div id=main>, css - #main {
+}
+
+html - <div class=col50>, css - .col50 {
+}
+
+html - <ul> (ou seja, um elemento proprio do html, outros exemplos, "li", "a" e etc) - ul {
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+FORMS
+
+<form action="..." method="..." name="..."></form>
+
+ACTION: ficheiro que recebe a informação submetida ex: form.php;
+
+NAME: nome do form que ira servir para identificar o form no php;
+
+METHOD:
+GET - a informacao é enviada em variaveis atraves da url. modo sem segurança. Ex: pesquisa do google. Permite partlhar
+POST - a informação é enviada e encriptada pelo servidor. modo com segurança. Formulario de registo --> 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+FORM
+
+Nome -> Label --> <label> Nome: </label>
+
+INPUT -> Type --> Text/Email/Password/Radio -> escoljha unica/obrigaritora/ Checkbox->escolha multipla/ Submit-> botao/ Reset-> limpar form
+
+Select -> lista pre-defenida de opçoes para aquele campo; --> <select nome = "assunto">
+                                                                                    <option> categoria 1 </option>
+                                                                                    <option> categoria 2 </option>
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Definition list -> DT
+
+Definition title -> DT
+Definition Description -> DD
+----------------------------------------------------------------------------------------------------------------------------------------------------------

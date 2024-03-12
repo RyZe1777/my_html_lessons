@@ -2,24 +2,31 @@
     width: 1080px;
     margin: 0 auto;
     padding: 0;
+    background: black;
+
 }
 
+body{
+    background: black;
+}
 
 .col2{
     display: inline-block;
     width: 45%;
     padding: 1% 2%;
+    color: white;
 }
 
 .col1{
     display: inline-block;
     width: 100%;
+    color: white;  
 }
 
 .border-form{
-    border: 1px solid green;
-    background: green;
-    color: white;
+    border: 1px solid white ;
+    background: white;
+    color: black;
 }
 .box input{
     border: 2px solid black;
@@ -36,7 +43,6 @@
     left: 50%; /* Da esquerda 50% para centralizar no site */
     margin-left: -175px; /* Metade da largura para centralizar */
     margin-top: -100px; /* Metade da altura para centralizar */
-    line-height: 200px; /* Altura da linha */
     width: 350px; /* largura */
     height: 200px; /* altura */
     text-align: center; /* alinhamento horizontal */
@@ -51,4 +57,16 @@
     position: absolute;
     top:10px;
     right:10px;
+}
+
+#loader span{
+    display: block;
+    margin-top: 50px;
+}
+
+#loader p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 0 10px;
 }
