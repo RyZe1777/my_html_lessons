@@ -1,0 +1,91 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+
+            <img src="porsche.png" alt="" width="150px">
+            <input type="search" placeholder="Procurar..." id="search" >
+            <input type="button" value="" id="Procurar">
+            
+            <a class="log" href="#">Login</a>
+            <a class="log" href="#">Register</a>
+
+
+        </div>
+
+        <div class="row">
+            <ul>
+                <li><a href="#">Porsche GT3 RS</a></li>
+                <li><a href="#">Porsche Carrera GTS</a></li>
+                <li><a href="#">Porsche Boxter S</a></li>
+                <li><a href="#">Porsche GT4</a></li>
+
+
+            </ul>
+
+
+        </div>
+
+
+        <div class="row">
+            <div class="col1">
+                <ul class="SUB">
+                    <li><a href="#">Saiba mais</a></li>
+                    <li><a href="#">Saiba mais</a></li>
+                    <li><a href="#">Saiba mais</a></li>
+                    <li><a href="#">Saiba mais</a></li>
+
+                </ul>
+
+
+
+            </div>
+            <div class="col2">
+                <img src="https://images.wallpaperscraft.com/image/single/porsche_911_turbo_103236_2560x1024.jpg" alt=""  class="GT3">
+                <p>The new GT3 RS TODAY Only in Porsche</p>
+
+
+            </div>
+    
+
+
+
+        </div>
+        <div class="row">
+            <img class="porsche1" src="porsche.png" alt="" width="200px">
+            <img class="porsche1" src="porsche.png" alt="" width="200px">
+            <img class="porsche1" src="porsche.png" alt="" width="200px">
+
+
+
+        </div>
+
+        <div class="bottom">
+            <p>Saiba mais ..     Saiba mais ..</p>
+            <p>Saiba mais ..</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+
+</html>
