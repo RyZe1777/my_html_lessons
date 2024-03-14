@@ -2,3 +2,10 @@
     padding: 5px;
     margin: 5px;
 }
+.wrong + label{
+    color: red;
+}
+
+.correct + label{
+    color: green;
+}
