@@ -1,9 +1,39 @@
 #main {
     width: 1080px;
-    margin:0 ;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.col50{
+    display: inline-block;
+    width: 49%;
 }
 
 
+.col35 {
+    display: inline-block;
+    width: 100%;
+}
+
+.col_left{
+    display: inline-block;
+    width: 39%;
+}
+
+.row2 img{
+    width: 500px;
+}
+
+.row2 {
+    padding-top: 10px;
+    width: 60%;
+    display: inline-block;
+}
 
 #menu li {
     display: inline-block;
@@ -16,7 +46,7 @@
     border: 2px solid black;
 }
 
-#submenu li a{
+#submenu li {
     display: block;
     width: 40%;
     background: white;
@@ -27,13 +57,24 @@
     border: 2px solid black;
 }
 
-
 .col3{
     display: inline-block;
-    width: 35%;
+    width: 30%;
+    margin: 10px;
 }
 
-.col3 img{
-    width: 100%;
-    display: bl;
+.col3 img {
+    width: 300px;
 }
+
+
+.col70 {
+    display: inline-block;
+    width: 69%;
+}
+
+.col30 {
+    display: inline-block;
+    width: 29%;
+}
+
