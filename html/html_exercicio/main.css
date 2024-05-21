@@ -61,6 +61,7 @@
     display: inline-block;
     width: 30%;
     margin: 10px;
+<<<<<<< HEAD
 }
 
 .col3 img {
@@ -77,3 +78,22 @@
     display: inline-block;
     width: 29%;
 }
+=======
+}
+
+.col3 img {
+    width: 300px;
+}
+
+
+.col70 {
+    display: inline-block;
+    width: 69%;
+}
+
+.col30 {
+    display: inline-block;
+    width: 29%;
+}
+
+>>>>>>> e3bf847e1893c47f6cdb31a8655312a166da36f3
