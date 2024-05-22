@@ -6,6 +6,7 @@ $(document).ready(function(){
 
     $(".img").on("click", function(e){
         
+        //pego n e de evento e previno o default
         e.preventDefault();
 
         //gravar titulo da imagem em variavel
@@ -18,7 +19,7 @@ $(document).ready(function(){
         placeholder.text(titulo)
 
         //adicionar class open
-        
+
         estaImagem.addClass("open");
 
         //remover calss open dos siblings
