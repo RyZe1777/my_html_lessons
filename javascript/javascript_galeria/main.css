@@ -58,3 +58,7 @@ body {
 #footer .right {
     text-align: right;
 }
+
+.img.open{
+    color: red;
+}
